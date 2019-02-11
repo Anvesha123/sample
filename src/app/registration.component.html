@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<div>
+  
+
+  <form #pform="ngForm" (ngSubmit)="addInformation(mform)">
+    
+    <h1>First Name:<input [(ngModel)]="registration.firstname" name="firstname" /><br /></h1>
+    <h1>Last Name:<input [(ngModel)]="registration.lastname" name="lastname" /><br /></h1>
+    <h1>Email:<input [(ngModel)]="registration.email" name="email" /><br /></h1>
+    <h1>Password:<input [(ngModel)]="registration.password" name="password" /><br /></h1>
+    <input type="submit" value="Register"/>
+    
+  </form>
+
+</div>
+
+
